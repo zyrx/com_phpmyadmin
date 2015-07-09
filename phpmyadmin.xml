@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.1" method="upgrade">
+  <name>com_phpmyadmin</name>
+  <author>Lech H. Conde</author>
+  <creationDate>July 2015</creationDate>
+  <copyright>(C) 2015 Open Source Matters. All rights reserved.</copyright>
+  <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+  <authorEmail>lech@mavels.net</authorEmail>
+  <authorUrl>www.mavels.net</authorUrl>
+  <version>4.0.10</version>
+  <description>COM_PHPMYADMIN_XML_DESCRIPTION</description>
+  <administration>
+    <files folder="admin">
+      <folder>phpmyadmin</folder>
+      <folder>language</folder>
+      <filename>phpmyadmin.php</filename>
+      <filename>README.md</filename>
+      <filename>LICENSE.txt</filename>
+    </files>
+    <languages folder="admin">
+      <language tag="en-GB">language/en-GB.com_phpmyadmin.ini</language>
+      <language tag="en-GB">language/en-GB.com_phpmyadmin.sys.ini</language>
+    </languages>
+  </administration>
+</extension>
+
